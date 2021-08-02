@@ -25,7 +25,7 @@ driver.find_element_by_class_name('eLAPa').click()
 
 time.sleep(2)
 
-with open(search+'인스타댓글.csv', 'a', newline='', encoding='utf-8') as out:
+with open(search+'인스타.csv', 'a', newline='', encoding='utf-8') as out:
     writer = csv.writer(out)
     replylist = []
     for temp in range(0,3):
